@@ -1,0 +1,42 @@
+html,body{
+    height: 100%;
+    margin: auto;
+}
+.container{
+    display: block;
+}
+.style-div{
+    background-color: #4ead8e;
+    text-align: center;
+    border: 4px solid  #b67950;
+    margin-top: 20px;
+    margin-left: 2px;
+    border-radius: 10px;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    z-index: 10;
+    overflow: hidden;
+}
+.style-img{
+   /* margin-left: 50px;*/
+    margin-top: 5px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #db874f;
+    z-index: 20;
+}
+.name-style{
+    margin-top: 3px;
+    font-size:14px ;
+    margin-bottom: -1px;
+    text-align: center;
+}
+
+.followes-style{
+    margin-top: 3px;
+    /*margin-left: 60px;*/
+    font-size:12px ;
+    margin-bottom: -1px;
+   
+} 
