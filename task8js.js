@@ -1,5 +1,6 @@
 var isdisplayedUser=false;
 var searchText;
+
 const getUser=(searchText)=>{
 fetch('https://api.github.com/users/'+searchText)
   .then(
